@@ -1,7 +1,7 @@
 .catalog {
   --card-column: 1;
 
-  padding: 50px 40px;
+  padding: $padding-horizontal $padding-vertical;
   display: grid;
   grid-template-columns: repeat(var(--card-column), $card-width);
   gap: 46px 48px;

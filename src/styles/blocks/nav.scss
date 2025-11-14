@@ -11,11 +11,11 @@
   }
 
   &__item:not(:first-child) {
-    margin-left: 20px;
+    margin-left: $nav-item-gap;
   }
 
   &__link {
-    height: 60px;
+    height: $nav-link-height;
     color: $main-text-color;
     font-size: $font-size-small;
     font-weight: 500;
@@ -42,7 +42,7 @@
         left: 0;
         width: 100%;
         height: $spacing-small;
-        border-radius: 8px;
+        border-radius: $nav-active-radius;
         background-color: $prime-color;
       }
     }
